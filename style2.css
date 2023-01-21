@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Chathura:wght@800&family=Comic+Neue:wght@400;700&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+body {
+    background-image: url("https://media.istockphoto.com/id/1189542390/vector/paper-layer-blue-abstract-background-use-for-banner-cover-poster-wallpaper-design-with-space.jpg?s=170667a&w=0&k=20&c=rX7I13I9k9F_iiFyuQXFpKDz6cKniRYXRtfgjWT7b3k=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.card {
+    background-color: rgba(173, 176, 204, 0.4);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+#logout{
+    float: right;
+    border-radius: 0 10px 0px 0px;
+    height: 40px;
+    width: 100px;
+    border: solid white 2px;
+    background-color: red;
+    color: white;
+    cursor:pointer;
+    font-size: 17px;
+}
+.form-control {
+    width: 200px;
+    height: 25px;
+    margin-left: 0;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: black;
+    font-family: 'Comic Neue', cursive;
+    color: black;
+    text-decoration: solid;
+    text-align: center;
+}
+.form-control:hover {
+    box-shadow: 0 0 10px white, 0 0 10px white;
+}
+.custom-btn {
+    color: #fff;
+    width: 130px;
+    height: 40px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+/* 3 */
+.btn-3 {
+    background: #00aced;
+    box-shadow: 0 0 5px #00aced, 0 0 8px #00aced;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    z-index: 2;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.btn-3:hover {
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 5px 3px -3px #00aced, 0 -5px 3px -3px #00aced,
+        0 5px 3px -3px #00aced, 0 -5px 3px -3px #00aced;
+}
+
+.btn-3:before,
+.btn-3:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 50%;
+    right: 0;
+    z-index: -1;
+    background: #00aced;
+    box-shadow: 0 0 5px #00aced;
+    transition: all 0.3s ease;
+}
+
+.btn-3:before {
+    top: 0;
+}
+
+.btn-3:after {
+    bottom: 0;
+}
+
+.btn-3:hover:before,
+.btn-3:hover:after {
+    height: 0;
+    background-color: #00aced;
+}
+h3 {
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    color: cyan;
+}
+b{
+    color: white;
+}
+p{
+    color: greenyellow;
+    font-size: 17px;
+    font-family: 'Black Ops One', cursive;
+}

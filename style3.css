@@ -1,0 +1,80 @@
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(173, 176, 204, 0.4);
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    height: 600px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+#logout {
+    border-radius: 0 0px 0px 10px;
+    height: 40px;
+    width: 100px;
+    border: solid white 2px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    top: 0;
+    position: fixed;
+    right: 0;
+}
+
+.form-control {
+    width: 100%;
+    height: 25px;
+    display: inline;
+    margin-left: 0;
+    border-radius: 0px 0px 0px 10px;
+    border-width: 2px;
+    border-color: aqua;
+    font-family: 'Comic Neue', cursive;
+    color: aqua;
+    text-decoration: solid;
+    text-align: center;
+    margin-left: 5px;
+    background-color: black;
+}
+
+.btn-success {
+    width: 35px;
+    height: 32px;
+    float: right;
+    background-image: url("send.png");
+    background-size: contain;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 10px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    cursor:pointer;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

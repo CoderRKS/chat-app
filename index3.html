@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="icon.jpg">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <title>Gochat-Chat Sreen</title>
+</head>
+
+<body>
+    <button onclick="logout()" id="logout" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+    <div class="container">
+        <div id="output" style="text-align: left;margin-bottom: 70px;"> </div>
+        <div class="contain">
+            <input type="text" id="msg" class="form-control" placeholder="Message">
+            <button onclick="send()" class="btn btn-success"></button>
+        </div>
+    </div>
+    <script src="main3.js"></script>
+</body>
+
+</html>
